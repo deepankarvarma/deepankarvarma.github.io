@@ -204,7 +204,7 @@ a {
   padding: 5em 0; }
 .img-hero{
   background-image: url(/images/hero1.jpg);
-  transition-duration: 300s;
+  /* animation-delay: 300ms !important; */
   }
   
 .img-hero:hover {
