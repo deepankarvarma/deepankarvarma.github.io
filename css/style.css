@@ -4,7 +4,8 @@ body {
   background: #222;
   line-height: 1.7;
   font-size: 16px;
-  font-weight: 300; }
+  font-weight: 300;
+overflow-x: hidden; /* Hide horizontal scrollbar */ }
 
 .p1-gradient-bg, .thumb .overlay-bg {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
@@ -204,12 +205,12 @@ a {
   padding: 5em 0; }
 .img-hero{
   background-image: url(/images/hero1.jpg);
-  /* animation-delay: 300ms !important; */
+  /* transition-delay: 1000s !important; */
   }
   
 .img-hero:hover {
   background-image: url(/images/hero.jpg);
-  transition-duration: 1000ms;
+  /* transition-duration: 1000ms !important; */
   
   }
 
