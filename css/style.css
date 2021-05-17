@@ -5,9 +5,40 @@ body {
   line-height: 1.7;
   font-size: 16px;
   font-weight: 300;
-overflow-x: hidden; /* Hide horizontal scrollbar */ }
+/* overflow-x:  hidden; Hide horizontal scrollbar } */
+}
 
-.p1-gradient-bg, .thumb .overlay-bg {
+
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#feature-text {
+  margin-left: 8px;
+  font-size: 30px;
+  font-weight: 400;
+  border-bottom: 3px solid cyan;
+  
+}
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 42px;
+  background-color: cyan;
+  margin-left: 8px;
+  animation: blink .6s linear infinite alternate;
+  border-bottom: 3px solid cyan;
+}
+
+
+@keyframes blink {
+0% {opacity: 1;}
+40% {opacity: 1;}
+60% {opacity: 0;}
+100% {opacity: 0;}
+}.p1-gradient-bg, .thumb .overlay-bg {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%); }

@@ -47,13 +47,17 @@
 
 
 
-	<section class="site-hero img-hero" id="section-home" data-stellar-background-ratio="0.5" data-aos="fade-up">
+	<section class="site-hero img-hero" id="section-home" data-stellar-background-ratio="0.5" data-aos="fade-up" >
 		<div class="container" >
 			<div class="row intro-text align-items-center justify-content-center">
 				<div class="col-md-10 text-center pt-5">
 
 					<h1 class="site-heading site-animate" >Hello, I'm <strong class="d-block">Deepankar Varma</strong></h1>
-					
+					<div class="typing-container">
+						<span id="sentence" class="sentence" style="font-size: 30px; color: white; margin-bottom: 3px;">I am,  </span>
+						<span id="feature-text"></span>
+						<span class="input-cursor"></span>
+					  </div>
 				</div>
 			</div>
 		</div>
@@ -64,7 +68,7 @@
 
 
 
-	<section class="site-section" id="section-portfolio" style=" background-image: url(/images/imageedit_7_6450727134.png); background-repeat: no-repeat; background-size: cover ;" data-aos="fade-down">
+	<section class="site-section" id="section-portfolio" style=" background-image: url(/images/imageedit_7_6450727134.png); background-repeat: no-repeat; background-size: cover ;" data-aos="fade-down" style="width:100%;">
 		<div class="container" >
 			<div class="row" >
 				<div class="section-heading text-center col-md-12" data-aos="fade-down">
@@ -73,11 +77,11 @@
 			</div>
 			<div class="filters" data-aos="fade-down">
 				<ul>
-					<li class="active" data-filter="*" >All</li>
-					<li data-filter=".appd">App Development</li>
-					<li data-filter=".webd">Web Development</li>
-					<li data-filter=".arduino">Arduino</li>
-					<li data-filter=".photography">Photography</li>
+					<li class="active" data-filter="*" style="font-size: 18px;">All</li>
+					<li data-filter=".appd" style="font-size: 18px;">App Development</li>
+					<li data-filter=".webd" style="font-size: 18px;">Web Development</li>
+					<li data-filter=".arduino" style="font-size: 18px;">Arduino</li>
+					<li data-filter=".photography" style="font-size: 18px;">Photography</li>
 				</ul>
 			</div>
 
@@ -261,7 +265,7 @@
 		</div>
 	</section> <!-- .section -->
 
-	<section class="site-section" id="section-about" data-aos="zoom-out">
+	<section class="site-section" id="section-about" data-aos="zoom-in" style="background-image: url(/images/technology-network-background-with-moving-lines-dots_34629-479.jpg); background-repeat: no-repeat; background-size: cover;">
 		<div class="container">
 			<div class="row mb-5 align-items-center">
 				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
@@ -272,7 +276,7 @@
 						<h2>About <strong>Me</strong></h2>
 					</div>
 					<p class="lead" style="font-weight: 400; color: rgba(162, 255, 255, 0.856)">Techie Freshman | Fixing code in the daytime and enjoying music at night</p>
-					<p style="font-weight: 200; color:rgb(13, 175, 175); padding-bottom: 0.5rem;">It is my pure passion to be a part of hackathons organized as they pave me into a new shape. My ultimate goal is to help people in solving daily life problems (performing daily life tasks) by the use of technology that will solve their very purpose in a very short interval of time and definitely help in modernizing the nation.</p>
+					<p style="font-weight: 200; color:rgb(0, 206, 206); padding-bottom: 0.5rem;">It is my pure passion to be a part of hackathons organized as they pave me into a new shape. My ultimate goal is to help people in solving daily life problems (performing daily life tasks) by the use of technology that will solve their very purpose in a very short interval of time and definitely help in modernizing the nation.</p>
 
 					<p>
 						<a href="#section-contact" class="btn1 btn-primary px-4 py-2 btn-sm smoothscroll">Contact Me</a>
@@ -284,9 +288,9 @@
 		</div>
 	</section>
 
-	<section class="site-section" id="section-testimonial" style=" background-image: url(/images/imageedit_9_6412833403.png); background-repeat: no-repeat; background-size: cover ;"  data-aos="fade-left">
-		<div class="container"  data-aos="fade-left">
-			<div class="row mb-5"  data-aos="fade-left">
+	<section class="site-section" id="section-testimonial" style=" background-image: url(/images/imageedit_9_6412833403.png); background-repeat: no-repeat; background-size: cover ;"  data-aos="fade-up">
+		<div class="container"  data-aos="fade-up">
+			<div class="row mb-5"  data-aos="fade-up">
 				<div class="col-md-12">
 					<div class="section-heading text-center">
 						<h2>Client <strong>Testimonial</strong></h2>
@@ -503,7 +507,7 @@
 
 	<script src="js/vendor/jquery.stellar.min.js"></script>
 	<script src="js/vendor/jquery.waypoints.min.js"></script>
-
+	<script src="js/typing.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 	<script src="js/custom.js"></script>
