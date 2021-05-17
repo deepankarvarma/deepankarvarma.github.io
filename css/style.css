@@ -826,3 +826,10 @@ a {
 .letter-spacing {
   letter-spacing: .2rem;
   color: rgba(255, 255, 255, 0.5) !important; }
+.form-control:focus{
+ transition-duration: .6s !important;
+ transition-property:color;
+  transition-property:background-color;
+  background-color: white;
+  color: #404040;
+}
