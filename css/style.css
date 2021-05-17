@@ -210,7 +210,11 @@ a {
   
 .img-hero:hover {
   background-image: url(/images/hero.jpg);
-  /* transition-duration: 1000ms !important; */
+  -webkit-transition-duration:10000s !important;
+   -moz-transition-duration:10000s !important;
+    -ms-transition-duration:10000s !important;
+     -o-transition-duration:10000s !important;
+        transition-duration:10000s !important;
   
   }
 
