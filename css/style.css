@@ -236,16 +236,16 @@ a {
   padding: 5em 0; }
 .img-hero{
   background-image: url(/images/hero1.jpg);
-  /* transition-delay: 1000s !important; */
+   /* transition-delay: 1000s !important;  */
   }
   
 .img-hero:hover {
   background-image: url(/images/hero.jpg);
-  -webkit-transition-duration:10000s !important;
-   -moz-transition-duration:10000s !important;
-    -ms-transition-duration:10000s !important;
-     -o-transition-duration:10000s !important;
-        transition-duration:10000s !important;
+  -webkit-transition-duration:1000s !important;
+   -moz-transition-duration:1000s !important;
+    -ms-transition-duration:1000s !important;
+     -o-transition-duration:1000s !important;
+        transition-duration:1000s !important;
   
   }
 
