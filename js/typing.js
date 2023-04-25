@@ -1,8 +1,11 @@
 const carouselText = [
+    {text: "Data Scientist", color: "yellow"},
+    {text: "Machine Learning Engineer", color: "orange"},
+    {text: "Competitive Coder", color: "rgb(201,227,54)"},
+    {text: "Backend Developer", color: "#fa618b"},
     {text: "App Developer", color: "yellow"},
-    {text: "Web Developer", color: "orange"},
-    {text: "Video Editor", color: "rgb(201,227,54)"},
-    {text: "Photographer", color: "#fa618b"}
+    {text: "Photographer", color: "orange"}
+    
   ]
   
   $( document ).ready(async function() {
