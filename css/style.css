@@ -238,7 +238,7 @@ a {
   
   .img-hero {
     background-image: url(/images/hero1.jpg);
-    transition: background-image 0.5s ease-in-out !important;
+    /* transition: background-image 0.5s ease-in-out !important; */
   }
   
   .img-hero:hover {
