@@ -534,7 +534,74 @@ a {
   border-radius: 5px; }
   .single-portfolio:hover .thumb .overlay-bg {
     opacity: .85; }
-
+    .relative {
+      position: relative;
+    }
+    
+    .thumb:hover .image {
+      filter: blur(8px); /* adjust the value to increase or decrease the blur effect */
+    }
+    
+    .thumb .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      background-color: rgba(0,0,0,0.5); /* add a semi-transparent overlay for better contrast */
+    }
+    
+    .thumb:hover .overlay {
+      opacity: 1;
+    }
+    
+    .thumb .text {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      transform: translate(-10%, -10%);
+      color: #000000;
+      font-size: 17px;
+      font-weight: bolder;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+    
+    .thumb:hover .text {
+      opacity: 1;
+    }
+    
+    .thumb .buttons {
+      position: absolute;
+      top: 83%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+    .thumb:hover .buttons {
+      opacity: 1;
+    }
+    
+    .thumb .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      margin: 5px;
+      cursor: pointer;
+      flex: 1;
+    }
+    
 .thumb .overlay-bg {
   opacity: 0;
   border-radius: 5px;
