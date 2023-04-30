@@ -233,7 +233,8 @@ a {
     color: rgba(255, 255, 255, 0.5); }
 
 .site-section {
-  padding: 5em 0; }
+  padding-top: 60px; 
+padding-bottom: 40px;}
 
   
   .img-hero {
@@ -497,7 +498,46 @@ a {
 
 .portfolio-area .filters-content .item img {
   width: 100%; }
-
+  .light-gray{
+    background-color:#8c8c92;
+    text-align:center;
+  }
+  .partner-logo{
+     -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    background-blend-mode: multiply;
+    background-color:#f1f1f1;
+    display:inline-block;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100% auto;
+    width:100px;
+    height:100px;
+    margin:2% 1%;
+    border-radius:100px;
+  }
+  #charles{
+    background-image: url('https://d253pvgap36xx8.cloudfront.net/groups/image/logo/b6977632a16111e68b9b0242ac110002.jpg');
+  }
+  #case{
+    background-image:url('https://d253pvgap36xx8.cloudfront.net/groups/image/logo/af8266bca16211e68b9b0242ac110002.jpg');
+  }
+  #pratt{
+    background-image:url('https://d253pvgap36xx8.cloudfront.net/groups/image/logo/02d994caa16311e699e30242ac110002.jpg');
+  }
+  #keywell{
+    background-image:url('https://d253pvgap36xx8.cloudfront.net/groups/image/logo/4564e74aa16311e689dd0242ac110002.jpg');
+  }
+  #robert{
+    background-image:url('https://d253pvgap36xx8.cloudfront.net/groups/image/logo/77d9df3ca16311e68b9b0242ac110002.jpg');
+  }
+  #forbes{
+    background-image:url('https://d253pvgap36xx8.cloudfront.net/groups/image/logo/12d7f7229ed411e69eb20242ac110002.jpg');
+  }
+  #john{
+    background-image:url('https://d253pvgap36xx8.cloudfront.net/groups/image/logo/b8ca8460a16311e69fc40242ac110002.jpg');
+  }
+  
 .image {
   opacity: 1;
   display: block;
