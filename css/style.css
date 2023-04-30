@@ -618,6 +618,33 @@ padding-bottom: 40px;}
   }
 
 
+/* Apply the glitch effect on hover */
+.site-heading strong:hover {
+  animation: glitch 0.5s infinite;
+  text-shadow: 0 0 20px #a88a8a, 0 0 30px #0ff, 0 0 40px #fff, 0 0 70px #0ff, 0 0 80px #fff, 0 0 100px #0ff, 0 0 150px #fff;
+}
+
+/* Define the glitch effect animation */
+@keyframes glitch {
+  0% {
+    transform: skew(0deg);
+  }
+  20% {
+    transform: skew(5deg);
+  }
+  40% {
+    transform: skew(-10deg);
+  }
+  60% {
+    transform: skew(15deg);
+  }
+  80% {
+    transform: skew(-10deg);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
 
 .image {
   opacity: 1;
