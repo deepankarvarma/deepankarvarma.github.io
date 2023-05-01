@@ -25,8 +25,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="background" >
+  <video id="background-video" autoplay loop muted>
+    <source src="bg1.mp4" type="video/mp4">
+   
+  </video>
+  <style>
+    #background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+  background-size: cover;
+}
 
+  </style>
   <!--
     - #MAIN
   -->
@@ -646,7 +661,7 @@
 
             </li>
 
-            
+
 
           </ol>
 
@@ -739,7 +754,7 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn >Text&#160;Classification</button>
+              <button data-filter-btn>Text&#160;Classification</button>
             </li>
 
             <li class="filter-item">
@@ -827,7 +842,8 @@
               </li>
               <li class="select-item">
                 <button data-select-item>Web&#160;Development</button>
-              </li><li class="select-item">
+              </li>
+              <li class="select-item">
                 <button data-select-item>Randoms</button>
               </li>
               <li class="select-item">
@@ -1205,7 +1221,7 @@
 
           </ul>
           <button class="form-btn" onclick="window.open('https://medium.com/@deepankar-varma', '_blank')"
-            style="margin-top: 30px; " >
+            style="margin-top: 30px; ">
             <ion-icon name="chevron-forward-outline"></ion-icon>
             <span>Read More</span>
           </button>
