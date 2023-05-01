@@ -246,7 +246,36 @@ padding-bottom: 40px;}
     background-image: url(/images/hero.jpg);
     transition: background-image 0.5s ease-in-out !important;
   }
- 
+.back-to-top{
+  
+  z-index: 9999;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bac964;
+  border-radius: 0.5rem;
+  padding: 0.5em;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+
+}
+.back-to-top span{
+  color:#FFF;
+  font-size: 2.5rem;
+  transition: 0.2s ease-out;
+}
+.back-to-top:hover{
+background-color: #FFF;
+
+}
+
+.back-to-top:hover span{
+  color: #bac964;
+  transform: translateY(-4px);
+}
 .section-heading {
   margin-bottom: 30px;
   position: relative;
