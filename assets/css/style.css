@@ -3,14 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -436,6 +428,7 @@ main {
   gap: 15px;
   padding-bottom: 4px;
   padding-left: 7px;
+  padding-right: 7px;
 }
 
 .social-item .social-link {
@@ -875,8 +868,21 @@ main {
   #PORTFOLIO
 \*-----------------------------------*/
 
-.filter-list { display: none; }
-
+.filter-list {
+  list-style: none;
+  display: none;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 0 -15px;
+  padding: 25px;
+  padding-bottom: 25px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+}
 .filter-select-box {
   position: relative;
   margin-bottom: 25px;
