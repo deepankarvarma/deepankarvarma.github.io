@@ -27,16 +27,17 @@
 
 <body id="background" >
   <video id="background-video" autoplay loop muted >
-    <source src="bg3.mp4" type="video/mp4">
+    <source src="bg1.mp4" type="video/mp4">
    
   </video>
   <script>
-  document.getElementById("background-video").playbackRate = 0.7;
+  document.getElementById("background-video").playbackRate = 1;
 </script>
   <style>
     #background-video {
   position: fixed;
   right: 0;
+  filter: brightness(70%) blur(10px);
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
